@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Joomla Logo CSS Only</title>
+<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+h1, p {
+	margin: 20px;
+	font: normal .8em/1.5em "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #999;
+}
+h1 {
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 2px dashed #ccc;
+	color: #444;
+}
+h1 sup {
+	font-size: .5em;
+}
+body > p:last-of-type {
+	font-size: 1em;
+	color: #444;
+}
+.box {
+	width: 500px;
+	height: 500px;
+	margin: 0 auto;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+}
+.j1, .j2, .j3, .j4 {
+	content: "";
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	border-radius: 90px;
+	-moz-border-radius: 90px;
+	-webkit-border-radius: 90px;
+	}
+.j1::before, .j2::before, .j3::before, .j4::before {
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 35px;
+	margin: 66px 0 0 -30px;
+	background: transparent;
+	border-radius: 75px 75px 0 0;
+	-moz-border-radius: 75px 75px 0 0;
+	-webkit-border-radius: : 75px 75px 0 0;
+}
+.j1::after, .j2::after, .j3::after, .j4::after {
+	content: "";
+	position: absolute;
+	width: 50px;
+	height: 101px;
+	margin: 150px 0 0 -30px;
+	background: transparent;
+}
+.j1 {
+	margin: 0 0 0 182px;
+	background: orange;
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	-ms-transform: rotate(0deg);
+}
+.j1::before, .j1::after {
+	border: 50px solid orange;
+}
+.j1::before {
+	border-width: 50px 50px 0 50px;
+}
+.j1::after {
+	border-width: 0 0 0 50px;
+}
+.j2 {
+	margin: 182px 0 0 364px;
+	background: red;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+}
+.j2::before, .j2::after {
+	border: 50px solid red;
+}
+.j2::before {
+	border-width: 50px 50px 0 50px;
+}
+.j2::after {
+	border-width: 0 0 0 50px;	
+}
+.j3 {
+	margin: 364px 0 0 182px;
+	background: blue;
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+}
+.j3::before, .j3::after {
+	border: 50px solid blue;
+}
+.j3::before {
+	border-width: 50px 50px 0 50px;
+}
+.j3::after {
+	border-width: 0 0 0 50px;
+}
+.j4 {
+	margin: 182px 0 0 0;
+	background: green;
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+}
+.j4::before, .j4::after {
+	border: 50px solid green;
+}
+.j4::before {
+	border-width: 50px 50px 0 50px;
+}
+.j4::after {
+	border-width: 0 0 0 50px;
+}
+.box p {
+	float: left;
+	margin: -20px 0 0 252px;
+	font: normal 1.25em/1em Helvetica, Arial, sans-serif;
+	color: #999;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+}
+</style>
+</head>
+<body>
+	<div><h1>Joomla!<sup>&reg;</sup> Logo // CSS Only</h1></div>
+		<p>The Joomla! logo is a registered trademark of Open Source Matters. I'm not associated with, endorsed, yada-yada-yada by Joomla! or Open Source Matters.</p>
+		<p>Tested in Webkit (Chrome, Safari) browsers on Mac, but included vendor prefixes for others, still may need some work on those. And nope it doesn't work in IE. Not a very practical project, and probably won't be useful. Ever. Enjoy it anyway.</p>
+	<div class="box">
+		<span class="j1"></span>
+		<span class="j2"></span>
+		<span class="j3"></span>
+		<span class="j4"></span>
+		<p>&reg;</p>
+	</div>
+</body>
+</html>
