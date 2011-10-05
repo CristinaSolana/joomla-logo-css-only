@@ -1,0 +1,11 @@
+Joomla!® Logo // CSS Only
+
+The Joomla! logo is a registered trademark of Open Source Matters. I'm not associated with, endorsed, yada-yada-yada by Joomla! or Open Source Matters.
+
+Works great on Mac in Webkit browsers, haven't tested on PC.
+
+Known issues:
+
+It doesn't work in IE. I also have no interest in trying to make it work. 
+
+Some browsers have an issue with the rotated child elements inside rotated parent element and therefore thin, white artifact lines are present. One I have a moment, I will actually take a different approach that doesn't require the rotated children inside a rotated parent.

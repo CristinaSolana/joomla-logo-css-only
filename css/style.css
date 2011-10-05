@@ -1,8 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Joomla Logo CSS Only</title>
-<style>
 * {
 	margin: 0;
 	padding: 0;
@@ -140,18 +135,3 @@ body > p:last-of-type {
 	-o-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 }
-</style>
-</head>
-<body>
-	<div><h1>Joomla!<sup>&reg;</sup> Logo // CSS Only</h1></div>
-		<p>The Joomla! logo is a registered trademark of Open Source Matters. I'm not associated with, endorsed, yada-yada-yada by Joomla! or Open Source Matters.</p>
-		<p>Tested in Webkit (Chrome, Safari) browsers on Mac, but included vendor prefixes for others, still may need some work on those. And nope it doesn't work in IE. Not a very practical project, and probably won't be useful. Ever. Enjoy it anyway.</p>
-	<div class="box">
-		<span class="j1"></span>
-		<span class="j2"></span>
-		<span class="j3"></span>
-		<span class="j4"></span>
-		<p>&reg;</p>
-	</div>
-</body>
-</html>
